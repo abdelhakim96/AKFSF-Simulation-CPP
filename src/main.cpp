@@ -1,8 +1,10 @@
+#define SDL_MAIN_HANDLED
+
 // System Includes
 #include <string>
 #include <iostream>
-#include <SDL2/SDL.h>
-#include <SDL2/SDL_ttf.h>
+#include <SDL.h>
+#include <SDL_ttf.h>
 
 #include "simulation.h"
 #include "car.h"
@@ -29,6 +31,9 @@ SimulationParams loadSimulation0Parameters();
 // Main Loop
 int main( int argc, char* args[] )
 {
+
+    //SDL_SetMainReady();
+
     Display mDisplay;
     Simulation mSimulation;
 

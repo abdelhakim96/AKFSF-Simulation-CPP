@@ -2,6 +2,8 @@
 #include <string>
 #include <iostream>
 #include <vector>
+#include <cmath>
+#include <SDL_ttf.h>
 
 // Program Includes
 #include "display.h"
